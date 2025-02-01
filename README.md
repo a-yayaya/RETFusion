@@ -45,7 +45,7 @@ To facilitate easy access and experimentation, we provide a Google Colab noteboo
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/your_username/RETFusion.git
+    git clone https://github.com/a-yayaya/RETFusion.git
     cd RETFusion
     ```
 2. Create a Conda environment:
