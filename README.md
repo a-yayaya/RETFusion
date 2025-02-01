@@ -29,6 +29,18 @@ If you find RETFusion helpful, please consider citing our work and the RETFound 
 - Demonstrates competitive performance with reduced computational resources.
 - Evaluated on clinically relevant applications, including diabetic retinopathy detection.
 
+## 🔥 RETFusion Checkpoint
+
+To use the pre-trained RETFusion model, download the checkpoint here:
+
+[RETFusion Checkpoint](https://drive.google.com/file/d/1J1t7SMG3A13Hg7622mqNBFc251lMmY1p/view?usp=sharing)
+
+## 🚀 Google Colab Notebook
+
+To facilitate easy access and experimentation, we provide a Google Colab notebook for running RETFusion without the need for local installation. You can access it here:
+
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1P-bn-04LQ8p3Ru0gcFxlLJsTOfrKBRNi?usp=sharing)
+
 ## 🛠 Installation
 
 1. Clone the repository:
@@ -110,17 +122,7 @@ python -m torch.distributed.launch --nproc_per_node=1 --master_port=48798 main_f
     --input_size 224
 ```
 
-## 🔥 RETFusion Checkpoint
 
-To use the pre-trained RETFusion model, download the checkpoint here:
-
-[RETFusion Checkpoint](https://drive.google.com/file/d/1J1t7SMG3A13Hg7622mqNBFc251lMmY1p/view?usp=sharing)
-
-## 🚀 Google Colab Notebook
-
-To facilitate easy access and experimentation, we provide a Google Colab notebook for running RETFusion without the need for local installation. You can access it here:
-
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1P-bn-04LQ8p3Ru0gcFxlLJsTOfrKBRNi?usp=sharing)
 
 ## 📝 Citation
 
