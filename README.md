@@ -129,4 +129,3 @@ python -m torch.distributed.launch --nproc_per_node=1 --master_port=48798 main_f
 If you use RETFusion in your work, please consider citing our paper alongside RETFound. 
 
 We hope RETFusion contributes to advancing research in efficient foundation model development for medical imaging!
-# RETFusion
