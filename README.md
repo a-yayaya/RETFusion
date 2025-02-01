@@ -63,6 +63,24 @@ Organize your dataset into the following structure:
         ├── class_b
 ```
 
+## 📊 Data Availability
+
+We provide data splits and model checkpoints to facilitate model comparison. Please remember to adjust `data_path`, `task`, and `nb_classes` for model fine-tuning and evaluation.
+
+### Data Split
+
+| Dataset  | Download Link 1  | Download Link 2 |
+|----------|-----------------|-----------------|
+| APTOS2019 | [Google Drive](https://drive.google.com/file/d/162YPf4OhMVxj9TrQH0GnJv0n7z7gJWpj/view?usp=sharing) | [Baidu](https://pan.baidu.com/s/1uR8uUAnkO19lVT3beZuoMg) code:a2wg |
+| MESSIDOR2 | [Google Drive](https://drive.google.com/file/d/1vOLBUK9xdzNV8eVkRjVdNrRwhPfaOmda/view?usp=sharing) | [Baidu](https://pan.baidu.com/s/1uR8uUAnkO19lVT3beZuoMg) code:a2wg |
+| IDRID | [Google Drive](https://drive.google.com/file/d/1c6zexA705z-ANEBNXJOBsk6uCvRnzmr3/view?usp=sharing) | [Baidu](https://pan.baidu.com/s/1uR8uUAnkO19lVT3beZuoMg) code:a2wg |
+
+### Official Websites
+
+- APTOS2019: [Kaggle](https://www.kaggle.com/competitions/aptos2019-blindness-detection/data)
+- MESSIDOR2: [ADCIS](https://www.adcis.net/en/third-party/messidor2/)
+- IDRID: [IEEE Dataport](https://ieee-dataport.org/open-access/indian-diabetic-retinopathy-image-dataset-idrid)
+
 ## 🔧 Fine-tuning RETFusion
 
 To fine-tune the model on your dataset, run:
@@ -91,3 +109,22 @@ python -m torch.distributed.launch --nproc_per_node=1 --master_port=48798 main_f
     --resume ./finetune_your_task/checkpoint-best.pth \
     --input_size 224
 ```
+
+## 🔥 RETFusion Checkpoint
+
+To use the pre-trained RETFusion model, download the checkpoint here:
+
+[RETFusion Checkpoint](https://drive.google.com/file/d/1J1t7SMG3A13Hg7622mqNBFc251lMmY1p/view?usp=sharing)
+
+## 🚀 Google Colab Notebook
+
+To facilitate easy access and experimentation, we provide a Google Colab notebook for running RETFusion without the need for local installation. You can access it here:
+
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1P-bn-04LQ8p3Ru0gcFxlLJsTOfrKBRNi?usp=sharing)
+
+## 📝 Citation
+
+If you use RETFusion in your work, please consider citing our paper alongside RETFound. 
+
+We hope RETFusion contributes to advancing research in efficient foundation model development for medical imaging!
+# RETFusion
